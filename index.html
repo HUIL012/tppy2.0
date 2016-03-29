@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+	*{
+		margin:0px; padding:0px;}
+li{
+	list-style-type:none;}
+</style>
+<script language="javascript" type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/imgTranslation.js"></script>
+<script type="text/javascript">
+    $(function(){
+		$(".floatImg").imgTranslation({
+			width:627,            //最外层DIV宽度
+			height:87,            //最外层DIV高度
+			widthImg:117,        //图片宽度
+			heightImg:87,       //图片高度
+			gap:20,               //图片间间隔
+			erval:15,              //移动速度
+			borders:true,         //是否有边框
+			borderColor:'#d6d6d6'      //边框颜色
+		
+		});
+			
+	});
+</script>
+</head>
+
+<body>
+<div class="floatImg">
+<!-- imgTranslation start-->
+<div class="imgTranslationDiv">
+    <div class="imgTranslationDivFloat">
+        <ul>
+            <li><a href="detail.html" target="_blank" title="榜书《诚意正心》"><img src="images/20140408125919.jpg" /></a></li>
+            <li><a href="detail.html" target="_blank" title="观远"><img src="images/20140408125919.jpg" /></a></li>
+            <li><a href="detail.html" target="_blank" title="福"><img src="images/20140408125919.jpg" /></a></li>
+            <li><a href="detail.html" target="_blank" title="榜书《宁静致远》"><img src="images/20140408125919.jpg" /></a></li>
+            <li><a href="detail.html" target="_blank" title="行书对联"><img src="images/20140408125919.jpg" /></a></li>
+            <li><a href="detail.html" target="_blank" title="寿"><img src="images/20140408125919.jpg" /></a></li>
+        </ul>
+    </div>
+</div>
+<!-- imgTranslation end-->
+</div>
+</body>
+</html>
